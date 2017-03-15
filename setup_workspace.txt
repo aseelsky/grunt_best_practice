@@ -1,0 +1,19 @@
+1) install node.js
+
+2) $ npm install -g grunt-cli               -g: Globally
+
+Starting from here, this should be done every time you create a project:
+
+3) $ npm init
+    this creates package.json, this file contain all the dependencies/plugin so when the project downloaded from github and run the command $ npm install, they will be all downloaded
+
+4) (check package.json before the following)
+    $ npm install grunt --save-dev            --save-dev: Add it to package.json as a dependency
+    (check package.json now)
+    this creates node_modules folder with grunt in it.
+
+5) (check package.json before the following)
+    $ npm install grunt-plugin --save-dev
+    (check package.json now)
+
+6) $ touch Gruntfile.js
